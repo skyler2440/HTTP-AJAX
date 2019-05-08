@@ -1,4 +1,9 @@
 import React from 'react';
-import axios from 'axios';
 
+function FriendDisplay(props) {
+return(
+    <p>{props.}</p>
+)
+}
 
+export default FriendDisplay;
